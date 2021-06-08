@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox layoutX="14.0" layoutY="14.0" prefHeight="140.0" prefWidth="1337.0" style="-fx-border-color: red; -fx-background-color: #33FF44;">
+         <children>
+            <Pane prefHeight="138.0" prefWidth="143.0">
+               <children>
+                  <ImageView fitHeight="128.0" fitWidth="142.0" layoutX="10.0" layoutY="7.0" onMouseClicked="#ReturnHome" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/bike-parking.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane prefHeight="138.0" prefWidth="1196.0">
+               <children>
+                  <ToggleButton layoutX="230.0" layoutY="46.0" mnemonicParsing="false" onAction="#XemXEDangThue" prefHeight="57.0" prefWidth="227.0" text="Xem xe đang thuê">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton fx:id="TraXee" layoutX="486.0" layoutY="46.0" mnemonicParsing="false" onAction="#TraXee" prefHeight="57.0" prefWidth="202.0" text="Trả xe">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </ToggleButton>
+                  <Text layoutX="14.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EParking Bicycle" wrappingWidth="194.13671875">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </Text>
+                  <TextField id="searchText" fx:id="searchText" layoutX="796.0" layoutY="45.0" prefHeight="57.0" prefWidth="287.0">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </TextField>
+                  <Button id="searchButton" fx:id="Search" layoutX="1098.0" layoutY="45.0" mnemonicParsing="false" onAction="#Search" prefHeight="57.0" prefWidth="77.0" text="Tìm">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+      <ScrollPane fx:id="result" layoutX="465.0" layoutY="174.0" prefHeight="580.0" prefWidth="883.0">
+         <content>
+            <Pane prefHeight="576.0" prefWidth="873.0">
+               <children>
+                  <Text layoutX="364.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thanh toán">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+                  <VBox fx:id="infor" layoutX="94.0" layoutY="57.0" prefHeight="435.0" prefWidth="662.0" />
+                  <Button layoutX="305.0" layoutY="518.0" mnemonicParsing="false" onAction="#SubmitOk" text="Đồng ý thanh toán">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+         </content></ScrollPane>
+      <Pane layoutX="9.0" layoutY="174.0" prefHeight="570.0" prefWidth="430.0">
+         <children>
+            <ImageView fitHeight="290.0" fitWidth="424.0" layoutX="3.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/home/photo-2-1513741375698.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

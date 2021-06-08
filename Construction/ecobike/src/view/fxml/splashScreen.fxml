@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="260.0" fitWidth="226.0" layoutX="567.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/bike-parking.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="503.0" layoutY="617.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Author : Chung, Đắc, Đạo" wrappingWidth="461.89453125">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fill="#003575" layoutX="607.0" layoutY="388.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ecobike">
+         <font>
+            <Font name="System Bold Italic" size="45.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

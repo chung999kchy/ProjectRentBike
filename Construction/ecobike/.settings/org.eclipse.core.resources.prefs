@@ -1,0 +1,16 @@
+eclipse.preferences.version=1
+encoding//src/controller/NhapMaVachController.java=UTF-8
+encoding//src/controller/ThanhToanController.java=UTF-8
+encoding//src/controller/TimKiemBaiXeController.java=UTF-8
+encoding//src/controller/XemBaiXeController.java=UTF-8
+encoding//src/controller/XemXeDangThueController.java=UTF-8
+encoding//src/utils/Configs.java=UTF-8
+encoding//src/view/screen/BaseScreenHandler.java=UTF-8
+encoding//src/view/screen/HomeScreen.java=UTF-8
+encoding//src/view/screen/baixe/BaiXeScreen.java=UTF-8
+encoding//src/view/screen/baixe/KQTimKiemScreen.java=UTF-8
+encoding//src/view/screen/thuexe/NhapMaVachScreen.java=UTF-8
+encoding//src/view/screen/thuexe/ThanhToanScreen.java=UTF-8
+encoding//src/view/screen/thuexe/XemXeThueScreen.java=UTF-8
+encoding//src/view/screen/traxe/TraXeDetailScreen.java=UTF-8
+encoding//src/view/screen/traxe/TraXeScreen.java=UTF-8
